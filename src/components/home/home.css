@@ -1,0 +1,22 @@
+html{
+    scroll-behavior: smooth;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    /* background-color: brown; */
+}
+
+@media(max-width: 1024px){
+    .home{
+        width: 90%;
+    }
+}
+
+@media(max-width: 512px){
+    .home{
+        width: 100%;
+    }
+}

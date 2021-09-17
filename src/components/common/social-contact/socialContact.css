@@ -1,0 +1,26 @@
+.social-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    justify-content:space-between;
+    /* background-color: red; */
+}
+
+.social-icon-div{
+    padding: 16px;
+    cursor: pointer;
+    margin: 6px;
+   
+
+}
+
+.social-icon{
+    height: 40px;
+    
+}
+@media(max-width: 720px){
+    .social-icon{
+        height: 32px;
+    }
+}
