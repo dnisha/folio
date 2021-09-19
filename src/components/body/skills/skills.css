@@ -1,0 +1,33 @@
+.skills {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+ 
+}
+
+.skill-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+ 
+
+}
+
+.skills-section-title{
+    display: flex;
+  margin-top: 20px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.skill-name{
+    display: flex;
+    flex-direction: column;
+   
+    justify-content:stretch; 
+}
+.skills-container{
+    
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}

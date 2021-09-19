@@ -1,0 +1,18 @@
+
+.skills-section {
+  display: flex;
+  /* background-color: slategray; */
+  margin-top: 20px;
+  
+}
+.skill-card{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+@media(max-width: 720px){
+    .skills-section{
+        height: 40px;
+    }
+}
