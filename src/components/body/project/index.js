@@ -1,19 +1,20 @@
 import React from "react";
-
+import Seperator from "../../common/seperstor";
 import { ProjectDtata } from "../../data/projects";
-import Card from "./card";
+import ProjectCard from "./ProjectCard";
 import "./projects.css";
 
-function Project() {
-  const data = ProjectDtata;
 
+const data = ProjectDtata;
+
+function Project() {
   return (
     <div className="projects">
-      <label className = "section-title"> Projects</label>
+      <Seperator />
+      <label > Projects</label>
       <div>
-        {data.map((projects) => {
-         
-          return  <Card projects = {projects}/>;
+        {data.map((project) => {
+          return <ProjectCard project = {project}/>
         })}
       </div>
     </div>

@@ -1,29 +1,20 @@
-export const ProjectDtata=[
-    {
-        id:1,
-        title:"randome Project 2",
-        about:"lorem23 uguguilguilguigguiguilgui",
-        tags:["ReactJs" , "NodeJs"],
-        demo:"gujgug",
-        github:"kuhliuguig",
-        image:"https://d2slcw3kip6qmk.cloudfront.net/marketing/blog/2019Q1/why-pm-is-important/why-is-project-management-important-header@2x.png"
-    },
-    {
-        id:2,
-        title:"randome Project 2",
-        about:"lorem23 uguguilguilguigguiguilgui",
-        tags:["ReactJs" , "NodeJs","firebase"],
-        demo:"gujgug",
-        github:"kuhliuguig",
-        image:"https://d2slcw3kip6qmk.cloudfront.net/marketing/blog/2019Q1/why-pm-is-important/why-is-project-management-important-header@2x.png"
-    },
-    {
-        id:3,
-        title:"randome Project 2",
-        about:"lorem23 uguguilguilguigguiguilgui",
-        tags:["ReactJs" , "NodeJs"],
-        demo:"gujgug",
-        github:"kuhliuguig",
-        image:"https://d2slcw3kip6qmk.cloudfront.net/marketing/blog/2019Q1/why-pm-is-important/why-is-project-management-important-header@2x.png"
-    },
-]
+export const ProjectDtata = [
+  {
+    id: 1,
+    title: "Project 1",
+    about: "lorem23 uguguilguilguigguiguilgui",
+    tags: ["ReactJs", "NodeJs"],
+    demo: "https://www.google.co.in/",
+    github: "kuhliuguig",
+    imge: <img src={require("../../assets/icons/foodapp.png").default} />,
+  },
+  {
+    id: 2,
+    title: "Project 2",
+    about: "lorem23 uguguilguilguigguiguilgui",
+    tags: ["ReactJs", "NodeJs", "firebase"],
+    demo: "https://www.facebook.com/deepak.nishad.50951101",
+    github: "kuhliuguig",
+    imge: <img src={require("../../assets/icons/website.jpg").default} />,
+  },
+];
