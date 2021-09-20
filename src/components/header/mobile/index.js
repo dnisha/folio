@@ -24,13 +24,13 @@ function Mobile({isOpen , setIsOpen}) {
         </a>
       </div>
 
-      <div className="mobile-option">
+      {/* <div className="mobile-option">
         <a href="#work ">
           <span className="option-icon">
             <ion-icon name="briefcase-outline"></ion-icon>Work
           </span>
         </a>
-      </div>
+      </div> */}
 
       <div className="mobile-option">
         <a href="#contact ">

@@ -22,7 +22,6 @@ function Skills() {
         </div>
 
         <br />
-      
       </div>
     </div>
   );

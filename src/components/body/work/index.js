@@ -4,7 +4,7 @@ function Work() {
     return (
         <div className= "work">
        
-            This is work
+           
         </div>
     )
 }

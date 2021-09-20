@@ -22,14 +22,14 @@ function Web() {
         </a>
       </div>
      
-      <div className="web-option">
+      {/* <div className="web-option">
         <a href="#work ">
           <span className="option-icon">
           <ion-icon name="briefcase-outline"></ion-icon>
           <div className="space"> Work</div>
           </span>
         </a>
-      </div>
+      </div> */}
      
       <div className="web-option">
         <a href="#contact ">

@@ -1,5 +1,11 @@
-.projects{
-    display: flex;
-    flex-direction: column;
-    flex: 1;
+.projects {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.title {
+  display: flex;
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: 600;
 }
